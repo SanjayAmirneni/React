@@ -1,0 +1,79 @@
+.banner_container{
+    color:white;
+    width:100vw;
+    /* height:600px; */
+    object-fit: contain;
+}
+
+
+
+.poster_data{
+    /* overflow: hidden; */
+    position:relative;
+    width : 100vw;
+    /* margin:15px; */
+    /* left:3%;*/
+     top:30%;
+    /* height:100%; */
+}
+
+.poster_info{
+    position:relative;
+     overflow: hidden;
+     position:relative;
+     width : 30vw;
+     margin:15px;
+     left:3%;
+}
+
+.poster_name{
+    position: relative;
+    /* height:20%; */
+    margin-top:80px;
+    font-size:35px;
+}
+
+.poster_overview{
+    position: relative;
+    /* padding:5px; */
+    font-size:16px; 
+    overflow: hidden;
+    /* height:100px */
+
+}
+
+.banner_button{
+    cursor:pointer;
+    color:white;
+    outline:none;
+    border:none;
+    font-weight: 700;
+    border-radius:0.2vw;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin-right:1rem;
+    margin-top:0.3rem;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51,51,51,0.5);
+}
+
+.banner_button:hover{
+    color:#000;
+    background-color: #e6e6e6;
+    transition:all 0.2s;
+}
+
+.banner_fadeBottom{
+    position:relative;
+    top:0%;
+    width:100vw;
+    height:130px;
+    /* background-image: linear-gradient(
+        to top,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );  */
+    background-image: linear-gradient(180deg,transparent,rgba(33,33,33,0.5),#000);
+} 
