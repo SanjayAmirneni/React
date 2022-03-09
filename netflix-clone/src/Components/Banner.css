@@ -1,7 +1,7 @@
 .banner_container{
     color:white;
     width:100vw;
-    /* height:600px; */
+    /* height:550px; */
     object-fit: contain;
 }
 
@@ -22,15 +22,16 @@
      overflow: hidden;
      position:relative;
      width : 30vw;
-     margin:15px;
+     /* margin:15px; */
      left:3%;
 }
 
 .poster_name{
     position: relative;
     /* height:20%; */
-    margin-top:80px;
-    font-size:35px;
+    padding-top:80px;
+    font-size:30px;
+    margin-top:0;
 }
 
 .poster_overview{
